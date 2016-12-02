@@ -7,6 +7,8 @@
 /DrumKit$1.class
 /DrumKit.class
 /DuellingButtons.class
+/Family.class
+/FamilyMember.class
 /HarryPotter.class
 /Houses.class
 /Jeopardy.class
@@ -14,6 +16,8 @@
 /Listeners$2.class
 /Listeners$3.class
 /Listeners.class
+/Movie.class
+/NetflixQueue.class
 /Pencil.class
 /Person.class
 /PersonRunner.class
@@ -27,6 +31,7 @@
 /Textbook.class
 /Vault.class
 /VaultRun.class
+/Watch.class
 /down.png
 /drum.jpg
 /drumSound.wav
@@ -34,9 +39,3 @@
 /moo.wav
 /right.png
 /up.png
-/Movie.class
-/NeflixQueue.class
-/NetflixQueue.class
-/Watch.class
-/FamilyMember.class
-/Family.class

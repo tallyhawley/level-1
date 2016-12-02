@@ -1,11 +1,9 @@
+import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
+import javax.swing.*;
 
 
 public class DuellingButtons implements ActionListener {
@@ -17,6 +15,7 @@ public class DuellingButtons implements ActionListener {
 
 	JButton leftButton = new JButton("Click me!");
 	JButton rightButton = new JButton("Click me!");
+	JTextField text = new JTextField("wow this is a text field");
 	
 	Dimension BIG = new Dimension(400,400);
 	Dimension SMALL = new Dimension(200,200);
@@ -38,6 +37,7 @@ public class DuellingButtons implements ActionListener {
 		rightButton.addActionListener(this);
 		// 7. Add the leftButton to the panel
 		panel.add(leftButton);
+		panel.add(text);
 		// 8. Add the rightButton to the panel
 		panel.add(rightButton);
 		// 9. Pack the frame
